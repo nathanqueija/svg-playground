@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.icon {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 1px dashed black;
+}
+
+.icon-music {
+  background-image: url(./svgs/clock.svg);
+}
+
+svg {
+  border: 1px dashed black;
+
+  rect {
+    fill: pink;
+    fill-opacity: 0.2;
+  }
+}
+
+.animate {
+  width: 100px;
+  height: 100px;
+  background: teal;
+  border: 2px darkblue dotted;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}

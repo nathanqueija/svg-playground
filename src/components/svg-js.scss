@@ -1,0 +1,13 @@
+.circle {
+  animation: circle 1s infinite alternate ease-in-out;
+}
+
+@keyframes circle {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

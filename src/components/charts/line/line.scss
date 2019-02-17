@@ -1,0 +1,19 @@
+.linechart_path {
+  stroke-width: 2;
+  stroke: blue;
+  fill: white;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 2s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.linechart_axis {
+  stroke: red;
+  stroke-width: 1px;
+}
